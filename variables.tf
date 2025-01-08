@@ -41,5 +41,5 @@ variable "environment" {
 variable "terraform_aws_profile" {
   description = "AWS profile for Terraform"
   type        = string
-  default     = "default"
+  default     = "aws-cicd"
 }
